@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about">关于</string>
+    <string name="action_settings">设置</string>
+    <string name="share_text">分享</string>
+    <string name="test_text">测试</string>
+    <string name="title_activity_about">关于</string>
+    <string name="today">今天</string>
+    <string name="tomorrow">明天</string>
+    <string name="widget_text">这是小部件</string>
+    <string name="yesterday">昨天</string>
+    <string name="final_text">决赛</string>
+    <string name="quarter_final">四分之一决赛</string>
+    <string name="semi_final">半决赛</string>
+    <string name="seriaa">足球甲级联赛</string>
+    <string name="matchday_text">比赛日</string>
+    <string name="champions_league">欧洲冠军联赛</string>
+    <string name="premierleague">英超联赛</string>
+    <string name="primeradivison">西甲联赛</string>
+    <string name="first_knockout_round">第一轮淘汰赛</string>
+    <string name="group_stage_text">小组赛</string>
+        <string name="about_text">
+            这是一个获取英超、意甲、德甲、西甲和欧冠联赛足球比分的应用。
+            所有比赛的数据来自 football-data.org 免费的API。
+            所有的团队标志来自 http://hdlogo.wordpress.com/ 。
+            这个应用的原始版本来自 Yahia Khalid Ibn El Walid Ahmed，修改的版本是给Udacity Android Nanodegree的学生学习使用。
+            如果有任何错误或建议，请发送邮件给这个地址 y.k.ibnelwalid@gmail.com.
+
+            在淡季，假数据会被填充到应用中。
+    </string>
+</resources>
