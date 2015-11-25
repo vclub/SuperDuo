@@ -3,6 +3,6 @@
     android:initialLayout="@layout/score_widget"
     android:minHeight="@dimen/score_widget_min_height"
     android:minWidth="@dimen/score_widget_min_width"
-    android:updatePeriodMillis="86400000">
+    android:updatePeriodMillis="1000">
 
 </appwidget-provider>
