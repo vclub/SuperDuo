@@ -44,6 +44,7 @@
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
             </intent-filter>
         </receiver>
+        <service android:name=".service.WidgetUpdateService"/>
     </application>
 
 </manifest>

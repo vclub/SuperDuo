@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:elevation="4dp"
+    android:background="@drawable/widget_background"
     android:orientation="horizontal"
     android:paddingTop="5dp">
 
@@ -18,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:src="@drawable/arsenal"/>
+            android:src="@drawable/no_icon"/>
 
         <TextView
             android:id="@+id/home_name"
@@ -68,7 +69,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:src="@drawable/arsenal"/>
+            android:src="@drawable/no_icon"/>
 
         <TextView
             android:id="@+id/away_name"
@@ -80,4 +81,11 @@
             android:textSize="12sp"/>
     </LinearLayout>
 
+    <ImageButton
+        android:id="@+id/btn_refresh"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:background="@null"
+        android:src="@android:drawable/ic_menu_rotate"/>
 </LinearLayout>
