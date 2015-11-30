@@ -29,4 +29,6 @@
             在淡季，假数据会被填充到应用中。
     </string>
     <string name="app_name" translatable="false">足球比分</string>
+    <string name="bundesliga" translatable="false">德甲</string>
+    <string name="unknown">不知道联赛请报告</string>
 </resources>
